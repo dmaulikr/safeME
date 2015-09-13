@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "ChannelsTableViewController.h"
-#import "SignInViewController.h"
 #import "MapViewController.h"
 
 #import <Parse/Parse.h>
@@ -34,9 +33,6 @@ NSNumber *stageOfMovieChannel = 0;
     self.window.rootViewController = self.navController;
     MapViewController *mapVC = [MapViewController new];
     [self.navController pushViewController:mapVC animated:YES];
-//    SignInViewController *viewController = [[SignInViewController alloc]init];
-//    [self.navController pushViewController:viewController animated:TRUE];
-//    viewController.managedObjectContext = self.driveManagedObjectContext;
 //    ChannelsTableViewController *viewController = [[ChannelsTableViewController alloc]init];
 //    [self.navController pushViewController:viewController animated:TRUE];
 //    viewController.driveManagedObjectContext = self.driveManagedObjectContext;

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0996862C1AC6C6F400EE434B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0996862B1AC6C6F400EE434B /* CoreData.framework */; };
 		099686391AC7254E00EE434B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099686381AC7254E00EE434B /* MapKit.framework */; };
-		0996864D1AC7A83C00EE434B /* QuickBlox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0996864C1AC7A83C00EE434B /* QuickBlox.framework */; };
 		0996864F1AC7A87900EE434B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0996864E1AC7A87900EE434B /* CFNetwork.framework */; };
 		099686511AC7A8EA00EE434B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099686501AC7A8EA00EE434B /* SystemConfiguration.framework */; };
 		099686531AC7A8FA00EE434B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099686521AC7A8FA00EE434B /* MobileCoreServices.framework */; };
@@ -30,22 +29,14 @@
 		F15505EB1BA4250C00C6132A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F15505CC1BA4250C00C6132A /* AppDelegate.m */; };
 		F15505EC1BA4250C00C6132A /* aqua.png in Resources */ = {isa = PBXBuildFile; fileRef = F15505CD1BA4250C00C6132A /* aqua.png */; };
 		F15505ED1BA4250C00C6132A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15505CE1BA4250C00C6132A /* LaunchScreen.xib */; };
-		F15505EE1BA4250C00C6132A /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15505D11BA4250C00C6132A /* ChannelsTableViewController.m */; };
 		F15505EF1BA4250C00C6132A /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F15505D21BA4250C00C6132A /* DataModel.xcdatamodeld */; };
 		F15505F01BA4250C00C6132A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15505D41BA4250C00C6132A /* Images.xcassets */; };
 		F15505F21BA4250C00C6132A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F15505D61BA4250C00C6132A /* main.m */; };
 		F15505F31BA4250C00C6132A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15505D81BA4250C00C6132A /* MapViewController.m */; };
 		F15505F41BA4250C00C6132A /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15505D91BA4250C00C6132A /* MapViewController.xib */; };
-		F15505F51BA4250C00C6132A /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = F15505DB1BA4250C00C6132A /* Message.m */; };
 		F15505F61BA4250C00C6132A /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = F15505DC1BA4250C00C6132A /* orange.png */; };
 		F15505F71BA4250C00C6132A /* send-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F15505DD1BA4250C00C6132A /* send-icon.png */; };
-		F15505F81BA4250C00C6132A /* ServiceChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15505DF1BA4250C00C6132A /* ServiceChatsViewController.m */; };
-		F15505F91BA4250C00C6132A /* ServiceChatsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15505E01BA4250C00C6132A /* ServiceChatsViewController.xib */; };
-		F15505FA1BA4250C00C6132A /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15505E21BA4250C00C6132A /* SignInViewController.m */; };
-		F15505FB1BA4250C00C6132A /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15505E31BA4250C00C6132A /* SignInViewController.xib */; };
 		F15505FC1BA4250C00C6132A /* taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = F15505E41BA4250C00C6132A /* taxi.png */; };
-		F15505FD1BA4250C00C6132A /* WYPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15505E61BA4250C00C6132A /* WYPopoverController.m */; };
-		F15506021BA4254000C6132A /* ChatDialogViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F15506011BA4254000C6132A /* ChatDialogViewCell.m */; };
 		F15506081BA4275100C6132A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15506031BA4275100C6132A /* Bolts.framework */; };
 		F15506091BA4275100C6132A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15506041BA4275100C6132A /* Parse.framework */; };
 		F155060C1BA4275100C6132A /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15506071BA4275100C6132A /* ParseUI.framework */; };
@@ -53,7 +44,6 @@
 		F15506101BA4278200C6132A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F155060F1BA4278200C6132A /* libsqlite3.0.dylib */; };
 		F15506121BA427F000C6132A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15506111BA427F000C6132A /* StoreKit.framework */; };
 		F15506141BA427FA00C6132A /* libc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F15506131BA427FA00C6132A /* libc.dylib */; };
-		F15506191BA42ACD00C6132A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15506171BA42ACD00C6132A /* Main.storyboard */; };
 		F155061B1BA42B3E00C6132A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F155061A1BA42B3E00C6132A /* Social.framework */; };
 		F155061D1BA42BDC00C6132A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F155061C1BA42BDC00C6132A /* Accounts.framework */; };
 		F15506541BA43B7F00C6132A /* women.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F15506531BA43B7F00C6132A /* women.jpeg */; };
@@ -75,7 +65,6 @@
 		099686041AC6941200EE434B /* SafeMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0996862B1AC6C6F400EE434B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		099686381AC7254E00EE434B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		0996864C1AC7A83C00EE434B /* QuickBlox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickBlox.framework; sourceTree = "<group>"; };
 		0996864E1AC7A87900EE434B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		099686501AC7A8EA00EE434B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		099686521AC7A8FA00EE434B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -98,8 +87,6 @@
 		F15505CC1BA4250C00C6132A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F15505CD1BA4250C00C6132A /* aqua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aqua.png; sourceTree = "<group>"; };
 		F15505CF1BA4250C00C6132A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F15505D01BA4250C00C6132A /* ChannelsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewController.h; sourceTree = "<group>"; };
-		F15505D11BA4250C00C6132A /* ChannelsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
 		F15505D31BA4250C00C6132A /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		F15505D41BA4250C00C6132A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F15505D51BA4250C00C6132A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,22 +94,10 @@
 		F15505D71BA4250C00C6132A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		F15505D81BA4250C00C6132A /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		F15505D91BA4250C00C6132A /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
-		F15505DA1BA4250C00C6132A /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
-		F15505DB1BA4250C00C6132A /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 		F15505DC1BA4250C00C6132A /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
 		F15505DD1BA4250C00C6132A /* send-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send-icon.png"; sourceTree = "<group>"; };
-		F15505DE1BA4250C00C6132A /* ServiceChatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceChatsViewController.h; sourceTree = "<group>"; };
-		F15505DF1BA4250C00C6132A /* ServiceChatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceChatsViewController.m; sourceTree = "<group>"; };
-		F15505E01BA4250C00C6132A /* ServiceChatsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServiceChatsViewController.xib; sourceTree = "<group>"; };
-		F15505E11BA4250C00C6132A /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
-		F15505E21BA4250C00C6132A /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
-		F15505E31BA4250C00C6132A /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 		F15505E41BA4250C00C6132A /* taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taxi.png; sourceTree = "<group>"; };
-		F15505E51BA4250C00C6132A /* WYPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPopoverController.h; sourceTree = "<group>"; };
-		F15505E61BA4250C00C6132A /* WYPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPopoverController.m; sourceTree = "<group>"; };
 		F15505E81BA4250C00C6132A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F15506001BA4254000C6132A /* ChatDialogViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDialogViewCell.h; sourceTree = "<group>"; };
-		F15506011BA4254000C6132A /* ChatDialogViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDialogViewCell.m; sourceTree = "<group>"; };
 		F15506031BA4275100C6132A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "parse-library-1.6.2 2/Bolts.framework"; sourceTree = "<group>"; };
 		F15506041BA4275100C6132A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "parse-library-1.6.2 2/Parse.framework"; sourceTree = "<group>"; };
 		F15506071BA4275100C6132A /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "parse-library-1.6.2 2/ParseUI.framework"; sourceTree = "<group>"; };
@@ -130,7 +105,6 @@
 		F155060F1BA4278200C6132A /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		F15506111BA427F000C6132A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		F15506131BA427FA00C6132A /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
-		F15506181BA42ACD00C6132A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F155061A1BA42B3E00C6132A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		F155061C1BA42BDC00C6132A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		F15506531BA43B7F00C6132A /* women.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = women.jpeg; sourceTree = "<group>"; };
@@ -168,7 +142,6 @@
 				099686511AC7A8EA00EE434B /* SystemConfiguration.framework in Frameworks */,
 				0996864F1AC7A87900EE434B /* CFNetwork.framework in Frameworks */,
 				099686391AC7254E00EE434B /* MapKit.framework in Frameworks */,
-				0996864D1AC7A83C00EE434B /* QuickBlox.framework in Frameworks */,
 				0996862C1AC6C6F400EE434B /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +186,6 @@
 				099686521AC7A8FA00EE434B /* MobileCoreServices.framework */,
 				099686501AC7A8EA00EE434B /* SystemConfiguration.framework */,
 				0996864E1AC7A87900EE434B /* CFNetwork.framework */,
-				0996864C1AC7A83C00EE434B /* QuickBlox.framework */,
 				099686381AC7254E00EE434B /* MapKit.framework */,
 				0996862B1AC6C6F400EE434B /* CoreData.framework */,
 				099685EC1AC6941200EE434B /* Products */,
@@ -232,17 +204,12 @@
 		F15505C81BA4250C00C6132A /* SafeME */ = {
 			isa = PBXGroup;
 			children = (
-				F15506171BA42ACD00C6132A /* Main.storyboard */,
-				F15506001BA4254000C6132A /* ChatDialogViewCell.h */,
-				F15506011BA4254000C6132A /* ChatDialogViewCell.m */,
 				F15505C91BA4250C00C6132A /* Annotation.h */,
 				F15505CA1BA4250C00C6132A /* Annotation.m */,
 				F15505CB1BA4250C00C6132A /* AppDelegate.h */,
 				F15505CC1BA4250C00C6132A /* AppDelegate.m */,
 				F15505CD1BA4250C00C6132A /* aqua.png */,
 				F15505CE1BA4250C00C6132A /* LaunchScreen.xib */,
-				F15505D01BA4250C00C6132A /* ChannelsTableViewController.h */,
-				F15505D11BA4250C00C6132A /* ChannelsTableViewController.m */,
 				F15505D21BA4250C00C6132A /* DataModel.xcdatamodeld */,
 				F15505D41BA4250C00C6132A /* Images.xcassets */,
 				F15505D51BA4250C00C6132A /* Info.plist */,
@@ -250,21 +217,11 @@
 				F15505D71BA4250C00C6132A /* MapViewController.h */,
 				F15505D81BA4250C00C6132A /* MapViewController.m */,
 				F15505D91BA4250C00C6132A /* MapViewController.xib */,
-				F15505DA1BA4250C00C6132A /* Message.h */,
-				F15505DB1BA4250C00C6132A /* Message.m */,
 				F15505DC1BA4250C00C6132A /* orange.png */,
 				F15506531BA43B7F00C6132A /* women.jpeg */,
 				F15505DD1BA4250C00C6132A /* send-icon.png */,
 				F15506571BA43E2500C6132A /* pic.png */,
-				F15505DE1BA4250C00C6132A /* ServiceChatsViewController.h */,
-				F15505DF1BA4250C00C6132A /* ServiceChatsViewController.m */,
-				F15505E01BA4250C00C6132A /* ServiceChatsViewController.xib */,
-				F15505E11BA4250C00C6132A /* SignInViewController.h */,
-				F15505E21BA4250C00C6132A /* SignInViewController.m */,
-				F15505E31BA4250C00C6132A /* SignInViewController.xib */,
 				F15505E41BA4250C00C6132A /* taxi.png */,
-				F15505E51BA4250C00C6132A /* WYPopoverController.h */,
-				F15505E61BA4250C00C6132A /* WYPopoverController.m */,
 			);
 			path = SafeME;
 			sourceTree = "<group>";
@@ -359,16 +316,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F15505FC1BA4250C00C6132A /* taxi.png in Resources */,
-				F15506191BA42ACD00C6132A /* Main.storyboard in Resources */,
 				F15505F01BA4250C00C6132A /* Images.xcassets in Resources */,
-				F15505F91BA4250C00C6132A /* ServiceChatsViewController.xib in Resources */,
 				F15505F71BA4250C00C6132A /* send-icon.png in Resources */,
 				F15505ED1BA4250C00C6132A /* LaunchScreen.xib in Resources */,
 				F15506581BA43E2500C6132A /* pic.png in Resources */,
 				F15505F41BA4250C00C6132A /* MapViewController.xib in Resources */,
 				F15505EC1BA4250C00C6132A /* aqua.png in Resources */,
 				F15506541BA43B7F00C6132A /* women.jpeg in Resources */,
-				F15505FB1BA4250C00C6132A /* SignInViewController.xib in Resources */,
 				F15505F61BA4250C00C6132A /* orange.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,15 +342,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F15505F21BA4250C00C6132A /* main.m in Sources */,
-				F15506021BA4254000C6132A /* ChatDialogViewCell.m in Sources */,
 				F15505EB1BA4250C00C6132A /* AppDelegate.m in Sources */,
-				F15505F81BA4250C00C6132A /* ServiceChatsViewController.m in Sources */,
-				F15505FD1BA4250C00C6132A /* WYPopoverController.m in Sources */,
 				F15505EF1BA4250C00C6132A /* DataModel.xcdatamodeld in Sources */,
-				F15505F51BA4250C00C6132A /* Message.m in Sources */,
 				F15505F31BA4250C00C6132A /* MapViewController.m in Sources */,
-				F15505EE1BA4250C00C6132A /* ChannelsTableViewController.m in Sources */,
-				F15505FA1BA4250C00C6132A /* SignInViewController.m in Sources */,
 				F15505EA1BA4250C00C6132A /* Annotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,14 +373,6 @@
 				F15505CF1BA4250C00C6132A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		F15506171BA42ACD00C6132A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F15506181BA42ACD00C6132A /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
