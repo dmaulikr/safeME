@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "ChannelsTableViewController.h"
 #import "MapViewController.h"
 
 #import <Parse/Parse.h>
@@ -16,9 +15,6 @@
 
 @end
 
-NSNumber *stageOfFoodChannel = 0;
-DriveStage stageOfDriveChannel = 0;
-NSNumber *stageOfMovieChannel = 0;
 
 @implementation AppDelegate
 
@@ -33,14 +29,6 @@ NSNumber *stageOfMovieChannel = 0;
     self.window.rootViewController = self.navController;
     MapViewController *mapVC = [MapViewController new];
     [self.navController pushViewController:mapVC animated:YES];
-//    ChannelsTableViewController *viewController = [[ChannelsTableViewController alloc]init];
-//    [self.navController pushViewController:viewController animated:TRUE];
-//    viewController.driveManagedObjectContext = self.driveManagedObjectContext;
-
-    [QBApplication sharedApplication].applicationId = 21391;
-    [QBConnection registerServiceKey:@"FuP4KDyMGkWFDc2"];
-    [QBConnection registerServiceSecret:@"HJDRGxVSd8wySka"];
-    [QBSettings setAccountKey:@"HJDRGxVSd8wySka"];
     
     [Parse enableLocalDatastore];
     [Parse setApplicationId:@"A9uhdUlFKztUKQIKiUFevJtbvBpICFsBaRtkWZaG"

@@ -95,9 +95,8 @@ NSMutableArray *names;
             annotationView = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
             annotationView.enabled = YES;
             annotationView.canShowCallout = YES;
-            annotationView.image = [UIImage imageNamed:@"taxi.png"];//here we use a nice image instead of the default pins
+            annotationView.image = [UIImage imageNamed:@"cab"];//here we use a nice image instead of the default pins
             UIButton *detailButton = [UIButton buttonWithType:UIButtonTypeContactAdd];
-//            detailButton.titleLabel.text = @"Get stay";
             [detailButton addTarget:self action:@selector(annotationDetailButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
             annotationView.rightCalloutAccessoryView = detailButton;
 
